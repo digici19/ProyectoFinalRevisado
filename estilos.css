@@ -1,0 +1,177 @@
+
+body{
+	 background: white;
+	 width: 960px;
+	 margin: 0 auto;
+	 
+	 
+}
+
+
+h1{
+font-family: 'Roboto', sans-serif;
+border: 1px solid black;
+margin-top: 40px;
+margin-bottom: 20px;
+margin-left: 15px;
+margin-right: 10px; 
+font-weight:bold;
+color: black;
+font-size: 30px;
+}
+
+.gradient {
+
+background:linear-gradient(blue, white, yellow);
+
+}
+.gradient1 {
+
+background:linear-gradient(blue, white, orange,yellow);
+
+}
+.ancla:before {
+      display: block;
+      content: " ";
+      margin-top: -120px;
+      height: 120px;
+      visibility: hidden;
+	  font-size: 30 px;
+}
+.enlace{
+font-family: 'Roboto', sans-serif;
+border: 1px solid black;
+margin-top: 50px;
+margin-bottom: 10px;
+margin-left: 5px;
+margin-right: 10px; 
+font-weight:bold;
+color: black;
+}
+/**_____________________________________________________________________________*/
+#content {
+ width: 450px;
+}
+    
+#close {
+ float: right;
+ font-weight: bold;
+ color: white;
+ }
+ 
+
+ .content2 {
+  margin: 0px auto;
+  min-height: 100px;
+  width: 450px;
+  box-shadow: 0 2px 5px #666666;
+  padding: 10px;
+ }
+
+
+.nombre{
+font-family: 'Arial', sans-serif;
+margin-top: 25px;
+margin-bottom: 20px;
+margin-left: 0px;
+margin-right: 10px; 
+font-weight:bold;
+
+color: black;
+}
+.b{
+background: black;
+font-family: 'Helvetica', sans-serif;
+margin-top: 25px;
+margin-bottom: 20px;
+margin-left: 0px;
+margin-right: 10px; 
+font-weight:bold;
+color: white;
+font-size: 25px;
+}
+html, body {
+margin:0 px;
+padding: 1 px;
+}
+
+header {
+margin: 0px;
+height: 420 px;
+width: 360 px;
+float: left;
+}
+
+aside{
+margin:0px;
+height: 420 px;
+width: 360 px;
+float: rigth;
+text-align:center;
+}
+.c{
+background: black;
+font-family: 'Helvetica', sans-serif;
+margin-top: 25px;
+margin-bottom: 20px;
+margin-left: 0px;
+margin-right: 10px; 
+font-weight:bold;
+color: red;
+}
+
+.d{
+font-family: 'Helvetica', sans-serif;
+margin-top: 25px;
+margin-bottom: 20px;
+margin-left: 0px;
+margin-right: 10px; 
+font-weight:bold;
+color: black;
+}
+.d1{
+font-family: 'Helvetica', sans-serif;
+margin-top: 25px;
+margin-bottom: 20px;
+margin-left: 300px;
+margin-right: 10px; 
+font-weight:bold;
+font-size: 20px;
+text-align:center;
+color: black;
+}
+.boton-personalizado {
+text-decoration:none;
+font-weight:600;
+font-size:20px;
+color:white;
+padding-top:15px;
+padding-bottom:15px;
+padding-left:40px;
+padding-right:40px;
+background-color:orange;
+border: 3px solid black;
+}
+
+.boton1{
+    text-decoration: none;
+    display:inline-block;
+    width:35%;
+    padding:12px;
+    border: 3px solid black;
+    border-radius:50px;
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    transition: all 0.9s;
+    text-align: center;
+    font-size: 20px;
+    
+  }
+
+  .boton1:hover{
+ 
+    background:black;
+    color:white;
+
+  }
